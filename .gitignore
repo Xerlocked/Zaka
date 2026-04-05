@@ -58,6 +58,9 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# RiderLink
+Plugins/Developer/RiderLink
+
 # Mac Artifacts
 .DS_Store
 
