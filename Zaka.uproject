@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1F721C9B-4694-97B4-3668-63BDFD2F6AAF}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Zaka",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
