@@ -7,7 +7,7 @@
 
 ---
 
-## 1. 시스템 전체 구조
+## 1. Overall system structure
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -45,7 +45,7 @@
 
 ---
 
-## 2. 설계 원칙
+## 2. Design principles
 
 1. **Mover-Centric Architecture**: All movement-related logic must be processed exclusively through the MoverComponent. Reverting to or utilizing the legacy CharacterMovementComponent is strictly prohibited.
 
