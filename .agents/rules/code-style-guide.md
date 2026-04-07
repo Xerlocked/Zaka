@@ -18,6 +18,7 @@ trigger: always_on
 #include "ZakaInventoryTypes.h"           // 4. Project-specific headers
 #include "InventoryComponent.generated.h"  // 5. Must be the last include
 ```
+Ensure #include paths in .cpp files correctly reflect the Public folder structure.
 
 ## UPROPERTY / UFUNCTION Macros
 - Data Exposure: `UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "CategoryName")`

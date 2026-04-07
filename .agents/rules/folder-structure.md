@@ -41,3 +41,5 @@ Zaka/
         │   └── HUD/                 # HUD Specific Logic
         │
         └── Data/                    # DataAsset & Raw Data Definitions
+
+Follow the Public/Private folder structure for file generation. All .h files must be located under Public/ [Category] and all .cpp files under Private/[Category]. (e.g. `Public/Character/ZakaBasePawn.h`, `Private/Character/ZakaBasePawn.cpp`)
